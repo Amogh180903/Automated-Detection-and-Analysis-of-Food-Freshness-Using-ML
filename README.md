@@ -160,20 +160,20 @@ Then open your browser and go to `http://localhost:5000`.
 
 ```
 FruitVegVision/
-├── app.py                    # Main Flask application
-├── models/                   # Trained model files
-│   ├── model.h5              # Food classification model
-│   ├── rotten.h5             # Freshness detection model
-│   ├── counting.pt           # YOLOv8 counting model
-│   ├── fruit_ripeness_model.h5  # Fruit ripeness model
-│   └── vegetable_ripeness_model (1).h5  # Vegetable ripeness model
-├── static/                   # Static files (CSS, JS, images)
-│   └── uploads/              # Folder for uploaded images
-├── templates/                # HTML templates
-│   ├── index.html            # Main page
-│   ├── results.html          # Results display page
-│   └── error.html            # Error page
-└── requirements.txt          # Project dependencies
+├── app.py                           # Main Flask application
+├── models/                          # Trained model files
+│   ├── Identification_Model.h5      # Food classification model
+│   ├── Rotten_Model.h5              # Freshness detection model
+│   ├── counting.pt                  # YOLOv8 counting model
+│   ├── Fruit_Ripeness_Model.h5      # Fruit ripeness model
+│   └── Vegetable_Ripeness_model.h5  # Vegetable ripeness model
+├── static/                          # Static files (CSS, JS, images)
+│   └── uploads/                     # Folder for uploaded images
+├── templates/                       # HTML templates
+│   ├── Index.html                   # Main page
+│   ├── Results.html                 # Results display page
+│   └── error.html                   # Error page
+└── requirements.txt                 # Project dependencies
 ```
 
 ## 🔮 Future Improvements
