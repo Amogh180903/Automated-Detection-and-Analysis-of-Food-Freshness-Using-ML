@@ -164,7 +164,7 @@ FruitVegVision/
 ├── models/                          # Trained model files
 │   ├── Identification_Model.h5      # Food classification model
 │   ├── Rotten_Model.h5              # Freshness detection model
-│   ├── counting.pt                  # YOLOv8 counting model
+│   ├── Counting.pt                  # YOLOv8 counting model
 │   ├── Fruit_Ripeness_Model.h5      # Fruit ripeness model
 │   └── Vegetable_Ripeness_model.h5  # Vegetable ripeness model
 ├── static/                          # Static files (CSS, JS, images)
